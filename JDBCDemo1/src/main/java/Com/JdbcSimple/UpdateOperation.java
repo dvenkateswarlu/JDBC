@@ -12,7 +12,7 @@ public class UpdateOperation {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbcproject1 ? user=root &password=root");
 			Statement statement = connection.createStatement();
-			int executeUpdate = statement.executeUpdate("Update person set password ='ramu123' where idPerson =102");
+			int executeUpdate = statement.executeUpdate("Update person set password ='ramu12' where idPerson =101");
 			System.out.println(executeUpdate);
 			
 		} catch (ClassNotFoundException | SQLException e) {
