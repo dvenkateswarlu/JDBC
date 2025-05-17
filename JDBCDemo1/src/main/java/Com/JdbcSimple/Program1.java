@@ -25,7 +25,5 @@ public class Program1 {
 		{
 			e.printStackTrace();
 		}
-	
 	}
-
 }
